@@ -1,0 +1,107 @@
+* {
+  background-color: #c9da8d;
+}
+.container {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+h1 {
+  color: #14b150;
+}
+input[type="text"] {
+  box-sizing: border-box;
+  width: 80%;
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  font-family: inherit;
+  background-color: #4c3e53;
+  color: #dbdbdb;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #be0075;
+  font-size: 18px;
+  font-weight: bold;
+}
+table {
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 100%; 
+}
+
+th,
+td {
+  text-align: center;
+  padding: 10px;
+}
+th {
+  background-color: #23a4ad;
+  color: #fff;
+}
+td {
+  background-color: #14b150;
+  color: #fff;
+}
+button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin: 5px 0;
+  margin-right: 10px;
+}
+.btn-primary {
+  background-color: #09ff00;
+  color: #000000;
+}
+.btn-warning {
+  background-color: #0755ff;
+  color: #ffffff;
+}
+.btn-danger {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 575.98px) {
+  .table-responsive-sm {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+@media (max-width: 767.98px) {
+  .table-responsive-md {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+@media (max-width: 991.98px) {
+  .table-responsive-lg {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+@media (max-width: 1199.98px) {
+  .table-responsive-xl {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+@media (max-width: 1399.98px) {
+  .table-responsive-xxl {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
